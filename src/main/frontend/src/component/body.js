@@ -5,18 +5,23 @@ import { GetStaredInstance } from './get-started';
 import { HomeInstance } from './home';
 import { TechPageInstance } from './tech';
 import { HIWInstance } from './hiw';
-import { AboutUSInstance } from './aboutus'
+import { AboutUSInstance } from './aboutus';
+import { WhatWeDoInstance } from './what-we-do';
+import { FooterInstance } from './footer';
+
+
 import './../style/style.css';
 
 export const BodyInstance  = () => {
   return (
     <div className='body'>
       <HomeInstance/>
-      <TechPageInstance/>
       <GetStaredInstance/>
       <HIWInstance/>
-      <AboutUSInstance/>>
+      <WhatWeDoInstance/>
+      <AboutUSInstance/>
       <FAQInstance/>
+      <FooterInstance/>
     </div>
   );
 };

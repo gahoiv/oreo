@@ -4,11 +4,14 @@ import './../style/style.css';
 
 const gridInstance = (
   <Grid bsClass='container text-center'>
-    <Row className="show-grid">
-      <Col sm={10} md={12} > <h1>About Us</h1></Col>
+    <Row className="aboutTitle">
+      <Col sm={10} md={12} > About Us</Col>
     </Row>
-    <Row className="show-grid  pd80">
-      <Col sm={10} md={12} > <p>No SDKs, No Installations, No Updates. In other words, none of that boring stuff.Start now and get productive creating apps immediately.</p></Col>
+    <Row className="aboutTitle-title">
+      <Col sm={10} md={12} > Present yourself to the whole world</Col>
+    </Row>
+    <Row className="aboutTitle-desc">
+      <Col sm={10} md={12} >Using all those ultra-necessary features of the Monstroid WordPress theme you can make a website in just a few hours. Monstroid offers a variety of pre-designed child themes for multiple business niches. Building a store is also not a big deal with a set of pre-designed product pages.</Col>
     </Row>
   </Grid>
 );

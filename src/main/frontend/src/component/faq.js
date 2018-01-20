@@ -10,14 +10,24 @@ const gridInstance = (
     <Row className="show-grid  pd80 text-normal">
       <Col sm={10} md={12} > 
       <Accordion>
-  <Panel header="Collapsible Group Item #1" eventKey="1">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+  <Panel header="I want to build a Website or overhaul my existing Web presence. Can you help?" eventKey="1">
+  Of Course, we code, consult and help design your Web portal or Website. Whether it is building an idea from scratch or editing existing code to improve the User Interface, we are right there to help! 
   </Panel>
-  <Panel header="Collapsible Group Item #2" eventKey="2">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+  <Panel header="I have an idea of what I want to build but not sure how to go about it?" eventKey="2">
+  Leave that to us. We will help you chalk out a plan, Our Architects are the best in business. 
+  We propose plans and help you scale your idea in a realistic and approachable way.
   </Panel>
-  <Panel header="Collapsible Group Item #3" eventKey="3">
-    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+  <Panel header="Do you guys code?" eventKey="3">
+  Hell-yeah! We are the best at it. Our Architects, Coders and Tech guys are the best.
+  </Panel>
+  <Panel header="Why do I require Technology Consulting?" eventKey="4">
+  Because, technology constantly changes and scaling is expensive. There are costs and time is limited. That is why you require paid-advice to overseas the overall architecture, scalability and design of your tech idea.
+  </Panel>
+  <Panel header="I am a Startup, how does Tech Consulting help me?" eventKey="5">
+  As a Startup, you need to worry about funding, legal, financial and so many troubles. Dedicated people to help solve Tech problems is a boon. 
+  </Panel>
+  <Panel header="How can we start things?" eventKey="6">
+  Phone, Skype, Slack, Google Duo or an in-person meeting. We are communicito on all.
   </Panel>
 </Accordion>
       </Col>

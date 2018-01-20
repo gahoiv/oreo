@@ -18,7 +18,7 @@ const gridInstance = (
           <Col sm={3} md={6}>
             <FormControl type="email" bsClass='transparent' placeholder="EMAIL ADDRESS" />
           </Col>
-          <Col sm={3} md={6}>
+          <Col sm={3} md={6} className='formControl'>
             <Button bsSize='large' className='btn-email' >REQUEST INVITE</Button> 
           </Col>
         </FormGroup>

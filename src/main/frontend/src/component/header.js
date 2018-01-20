@@ -31,13 +31,7 @@ const navbarInstance = (
 const headerInstance = (
   <Grid bsClass='containerHead'>
     <Row>
-      <Col sm={10} md={3} > <FontAwesome name='info-circle' className='containerHeadIcon'/>We are currently in a limited, invite-only alpha.</Col>
-      <Col sm={10} md={9} > 
-        <FontAwesome name='envelope' className='containerHeadIcon'/>
-        <span>
-          <a href="mailto:support@codeoreo.com" style={{color: '#4CB377', textDecoration: 'none'}}>support@codeoreo.com</a>
-        </span>
-      </Col>
+      <Col sm={10} md={12} >&nbsp;</Col>
     </Row>
   </Grid>
 );

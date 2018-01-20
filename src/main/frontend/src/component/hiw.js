@@ -15,7 +15,7 @@ const gridInstance = (
 const HiwPageInstance = (
     <Carousel controls={false} pauseOnHover={false} interval={2000}>
       <Carousel.Item>
-        <div className='coverImg code5'>
+        <div className='coverImg code2'>
           <Carousel.Caption>
             <h3>We make developing Website and Web Applications look easy. </h3>
           </Carousel.Caption>
@@ -29,7 +29,7 @@ const HiwPageInstance = (
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className='coverImg code6'>
+        <div className='coverImg code1'>
           <Carousel.Caption>
             <h3>Leave your coding worries to us, we get stuff done!</h3>
           </Carousel.Caption>
@@ -43,7 +43,7 @@ const HiwPageInstance = (
         </div>
       </Carousel.Item>
       <Carousel.Item>
-        <div className='coverImg code'>
+        <div className='coverImg code4'>
           <Carousel.Caption>
             <h3>Confused or Worried on how to build an idea.</h3>
             <p> we can help you chart a crystal clear roadmap.</p>
