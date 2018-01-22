@@ -16,11 +16,11 @@ export const BodyInstance  = () => {
   return (
     <div className='body'>
       <HomeInstance/>
-      <GetStaredInstance/>
-      <HIWInstance/>
       <WhatWeDoInstance/>
+      <HIWInstance/>
       <AboutUSInstance/>
       <FAQInstance/>
+      <GetStaredInstance/>
       <FooterInstance/>
     </div>
   );

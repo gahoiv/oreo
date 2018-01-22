@@ -7,7 +7,7 @@ const gridInstance = (
     <Row className="show-grid">
       <Col sm={10} md={12} > <h1>Frequently Asked Questions</h1></Col>
     </Row>
-    <Row className="show-grid  pd80 text-normal">
+    <Row className="show-grid text-normal">
       <Col sm={10} md={12} > 
       <Accordion>
   <Panel header="I want to build a Website or overhaul my existing Web presence. Can you help?" eventKey="1">

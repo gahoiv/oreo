@@ -14,6 +14,8 @@ const navbarInstance = (
     <Navbar.Collapse>
       <Nav>
         <NavItem eventKey={1} href="#hiw" className='navItem'>HOW WE CAN HELP</NavItem>
+        <NavItem eventKey={1} href="#hiw" className='navItem'>TECHNOLOGIES</NavItem>
+        <NavItem eventKey={1} href="#hiw" className='navItem'>CONSULTING</NavItem>
       </Nav>
       <Nav pullRight>
         <NavItem eventKey={2} href="#get-started" className='navItem'>GET STARTED</NavItem>
