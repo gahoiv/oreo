@@ -18,6 +18,7 @@ export const BodyInstance  = () => {
       <HomeInstance/>
       <WhatWeDoInstance/>
       <HIWInstance/>
+      <TechPageInstance/>
       <AboutUSInstance/>
       <FAQInstance/>
       <GetStaredInstance/>

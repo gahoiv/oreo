@@ -14,17 +14,13 @@ const navbarInstance = (
     <Navbar.Collapse>
       <Nav>
         <NavItem eventKey={1} href="#hiw" className='navItem'>HOW WE CAN HELP</NavItem>
-        <NavItem eventKey={1} href="#hiw" className='navItem'>TECHNOLOGIES</NavItem>
-        <NavItem eventKey={1} href="#hiw" className='navItem'>CONSULTING</NavItem>
+        <NavItem eventKey={2} href="#tech" className='navItem'>TECHNOLOGIES</NavItem>
+        <NavItem eventKey={3} href="#wwd" className='navItem'>CONSULTING</NavItem>
+        <NavItem eventKey={4} href="#about" className='navItem'>ABOUT US</NavItem>
+        <NavItem eventKey={5} href="#faqs" className='navItem'>FAQS</NavItem>
       </Nav>
       <Nav pullRight>
-        <NavItem eventKey={2} href="#get-started" className='navItem'>GET STARTED</NavItem>
-        <NavDropdown eventKey={3} className='navItem' title="HOW IT WORKS" id="basic-nav-dropdown">
-          <MenuItem eventKey={3.1} href="#tech" className='navItem'>TECHNOLOGIES</MenuItem>
-          <MenuItem eventKey={3.1} href="#hiw" className='navItem'>CONSULTING</MenuItem>
-          <MenuItem eventKey={3.1} href="#about" className='navItem'>ABOUT US</MenuItem>
-          <MenuItem eventKey={3.2} href="#faqs" className='navItem'>FAQS</MenuItem>
-        </NavDropdown>
+        <NavItem eventKey={6} href="#get-started" className='navItem'>GET STARTED</NavItem>
       </Nav>
     </Navbar.Collapse>
   </Navbar>

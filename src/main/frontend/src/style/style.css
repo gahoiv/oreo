@@ -295,27 +295,22 @@ input::placeholder {
 /* Tech Style*/
 
 .tech {
-    height: 200px;
-    width: 100%;
     background: #E2EAF1;
-}
-
-.techIconContainer {
-    height: inherit;
-    width: 50%;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
+    padding: 0 0 50px;
 }
 
 .techIcon {
-    height: 100px;
-    width: 300px!important;
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    background-repeat: no-repeat;
+    font-size: 50px;
+    color: #4EB7FE;
+    
+}
+
+.techHeader {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: 900;
+    font-size: 40px;
+    color: #000000;
 }
 
 .carousel {
@@ -461,7 +456,7 @@ input::placeholder {
 }
 
 .scroll {
-    opacity: 0.3;
+    opacity: 0.6;
     background-color: #000000;
     width: 50px;
     height: 50px;
