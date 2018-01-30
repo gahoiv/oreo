@@ -12,22 +12,22 @@ return (
           </Col>
         </Row>
         <Row>
-          <Col sm={10} md={2} > 
+          <Col sm={2} md={2} > 
             <i className="icon-apache techIcon"></i>
           </Col>
-          <Col sm={10} md={2} > 
+          <Col sm={2} md={2} > 
             <i className="icon-docker techIcon"></i>
           </Col>
-          <Col sm={10} md={2} > 
+          <Col sm={2} md={2} > 
             <i className="icon-git techIcon"></i>
           </Col>
-          <Col sm={10} md={2} > 
+          <Col sm={2} md={2} > 
             <i className="icon-tomcat techIcon"></i>
           </Col>
-          <Col sm={10} md={2} > 
+          <Col sm={2} md={2} > 
             <i className="icon-nginx techIcon"></i>
           </Col>
-          <Col sm={10} md={2} > 
+          <Col sm={2} md={2} > 
             <i className="icon-npm techIcon"></i>
           </Col>
         </Row>

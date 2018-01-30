@@ -1,3 +1,6 @@
+#root {
+    overflow-x: hidden;
+}
 .globalContainer{
     overflow: visible;
 }
@@ -195,11 +198,11 @@ input::placeholder {
 }
 
 .footer {
-    background-color: #E2EAF1;
-    padding: 60px;
+    background-color: #c9ddd1;
+    padding: 60px 0 60px;
 }
 .footer-header {
-    color:#4EB7FE;
+    color:#1d4c2d;
 }
 
 .footer-font {
@@ -219,7 +222,7 @@ input::placeholder {
 .panel-body {
     text-align: left;
     font-size: 1.5rem;
-    background-color: #E2EAF1;
+    background-color: #c9ddd1;
 }
 
 .navItem {
@@ -295,13 +298,13 @@ input::placeholder {
 /* Tech Style*/
 
 .tech {
-    background: #E2EAF1;
+    background: #c9ddd1;
     padding: 0 0 50px;
 }
 
 .techIcon {
     font-size: 50px;
-    color: #4EB7FE;
+    color: #1d4c2d;
     
 }
 
@@ -430,7 +433,7 @@ input::placeholder {
 .faq {
     color: #000000;
     padding : 50px;
-    background-color: #E2EAF1;
+    background-color: #c9ddd1;
 }
 
 
@@ -439,7 +442,6 @@ input::placeholder {
 .about {
     min-height: 300px;
     padding: 50px;
-    color: #000000;
     background: #3F4752;
 }
 
@@ -447,7 +449,7 @@ input::placeholder {
     font-size: 22px;
     font-weight: 700;
     padding: 15px;   
-    color:#4EB7FE;
+    color:#1d4c2d;
 }
 
 .aboutTitle-title {
@@ -483,7 +485,7 @@ input::placeholder {
 }
 
 .whatWeDo {
-    background-color: #E2EAF1;
+    background-color: #c9ddd1;
     min-height: 300px;
     padding: 50px;
 }
@@ -492,7 +494,7 @@ input::placeholder {
     text-align: left;
     font-size: 2.2rem;
     font-weight: 600;
-    color:#4EB7FE;
+    color:#1d4c2d;
 
 }
 .rowHeader-title{
