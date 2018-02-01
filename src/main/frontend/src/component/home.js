@@ -5,9 +5,9 @@ import FontAwesome from 'react-fontawesome';
 
 const gridInstance = (
   <Jumbotron bsClass='homeContent'>
-    <h1>Deciding to use which Tech is like staring into an Abyss, we help you decide.</h1>
-    <p>We consult and help scale the Tech for your company.</p>
-    <p><Button bsSize='large' href='#get-started'>Getting Started</Button></p>
+    <h1>"Web Consultants that help you plan, develop or Upgrade"</h1>
+    <p>Leave the tech to us. We are awesome at it.</p>
+    <p><Button bsSize='large' href='#get-started'>Let us get started!"</Button></p>
 </Jumbotron>
 );
 
