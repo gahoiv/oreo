@@ -305,11 +305,11 @@ input::placeholder {
 .techIcon {
     font-size: 35px;
     color: #3073AD;
-    
+
 }
 .techs > div {
     display: flex;
-    padding: 10px;  
+    padding: 10px;
 }
 
 .techs > div > span {
@@ -459,7 +459,7 @@ input::placeholder {
 .aboutTitle {
     font-size: 22px;
     font-weight: 700;
-    padding: 15px;   
+    padding: 15px;
     color:#3073AD;
 }
 
@@ -518,5 +518,5 @@ input::placeholder {
 .rowHeader-desc {
     text-align: left;
     font-size: 1.5rem;
-    color: #B0B0B0;
+    color: #000000;
 }
