@@ -1,9 +1,11 @@
 #root {
     overflow-x: hidden;
 }
-.globalContainer{
+
+.globalContainer {
     overflow: visible;
 }
+
 body {
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #ffffff;
@@ -70,7 +72,7 @@ body {
 .transparent {
     background: none;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    color: #fff!important;
+    color: #fff !important;
     float: left;
     margin-left: 2.5%;
     height: 50px;
@@ -80,7 +82,7 @@ body {
 }
 
 input::placeholder {
-    color: #fff!important;
+    color: #fff !important;
     font-size: 15px;
 }
 
@@ -118,9 +120,9 @@ input::placeholder {
 }
 
 .btn-email {
-    background: #ffffff!important;
+    background: #ffffff !important;
     border-radius: unset;
-    color: #3F4752!important;
+    color: #3F4752 !important;
     width: 100%;
     height: 50px;
     font-size: 15px;
@@ -162,9 +164,9 @@ input::placeholder {
 }
 
 .btn-access {
-    background: none!important;
+    background: none !important;
     border: 2px solid #fff;
-    color: #fff!important;
+    color: #fff !important;
     text-transform: uppercase;
     float: left;
     padding-left: 20px;
@@ -175,8 +177,8 @@ input::placeholder {
 }
 
 .btn-access:hover {
-    background: #fff!important;
-    color: #3F4752!important;
+    background: #fff !important;
+    color: #3F4752 !important;
     text-decoration-line: none;
 }
 
@@ -201,14 +203,15 @@ input::placeholder {
     background-color: #d4d6d8;
     padding: 60px 0 60px;
 }
+
 .footer-header {
-    color:#005789;
+    color: #005789;
 }
 
 .footer-font {
     font-size: 12px;
     padding-top: 70px;
-    color:#000000;
+    color: #000000;
 }
 
 .pd100 {
@@ -216,9 +219,10 @@ input::placeholder {
     padding-top: 80px;
 }
 
-.panel-title{
+.panel-title {
     font-weight: 600;
 }
+
 .panel-body {
     text-align: left;
     font-size: 1.5rem;
@@ -248,7 +252,6 @@ input::placeholder {
     padding: 9px;
 }
 
-
 /* NavBar Style */
 
 .navbar {
@@ -272,7 +275,6 @@ input::placeholder {
     color: #9d9d9d;
 }
 
-
 /*Home Div*/
 
 .homeDiv {
@@ -293,8 +295,6 @@ input::placeholder {
     border-radius: unset;
 }
 
-
-
 /* Tech Style*/
 
 .tech {
@@ -304,27 +304,33 @@ input::placeholder {
 
 .techIcon {
     font-size: 35px;
-    color: #005789;
-
+    color: #3F4752;
 }
-.techs > div {
+
+.techs>div {
     display: flex;
     padding: 10px;
+    text-align: initial;
+    color: #3F4752;
 }
 
-.techs > div > span {
+.techs-details {
+    padding-top: 15px;
+}
+
+.techs>div>span {
     font-size: 25px;
-    color: #005789;
+    color: #3F4752;
     font-weight: 800;
     padding: 5px;
 }
 
 .techHeader {
     padding-top: 25px;
-    padding-bottom: 25px;
-    font-weight: 900;
-    font-size: 40px;
+    font-weight: 800;
+    font-size: 25px;
     color: #000000;
+    text-align: initial;
 }
 
 .carousel {
@@ -388,7 +394,6 @@ input::placeholder {
     background-image: url('./../img/sql.png');
 }
 
-
 /* HIW CSS*/
 
 .hiw {
@@ -438,15 +443,13 @@ input::placeholder {
     background-image: url('./../img/code7.png');
 }
 
-
 /* FAQ CSS*/
 
 .faq {
     color: #000000;
-    padding : 50px;
+    padding: 50px;
     background-color: #d4d6d8;
 }
-
 
 /*ABOUT US*/
 
@@ -457,11 +460,10 @@ input::placeholder {
 }
 
 .aboutTitle {
-    font-size: 3
-    0px;
+    font-size: 3 0px;
     font-weight: 700;
     padding: 15px;
-    color:#005789;
+    color: #005789;
 }
 
 .aboutTitle-title {
@@ -485,7 +487,10 @@ input::placeholder {
     opacity: 1;
 }
 
-.scroll:active { outline: 0px; border:0px; }
+.scroll:active {
+    outline: 0px;
+    border: 0px;
+}
 
 .arrow-up {
     color: white;
@@ -501,21 +506,23 @@ input::placeholder {
     min-height: 300px;
     padding: 50px;
 }
+
 .rowHeader {
     margin-bottom: 25px;
     text-align: left;
     font-size: 2.2rem;
     font-weight: 600;
-    color:#005789;
-
+    color: #005789;
 }
-.rowHeader-title{
+
+.rowHeader-title {
     margin-bottom: 25px;
     text-align: left;
     font-size: 2.5rem;
     color: #000000;
     font-weight: 600;
 }
+
 .rowHeader-desc {
     margin-bottom: 25px;
     text-align: left;
@@ -528,11 +535,12 @@ input::placeholder {
     color: #000000;
     padding: 50px;
 }
+
 .custTitle {
     font-size: 40px;
     font-weight: 700;
     padding: 15px;
-    color:#ffffff;
+    color: #ffffff;
 }
 
 .cust-icon {
@@ -540,10 +548,50 @@ input::placeholder {
     height: 170px;
     min-width: 110px;
 }
+
 .cust-details {
     padding: 20px 0 0 0;
     text-align: initial;
     font-size: 18px;
     font-weight: 600;
     color: #ffffff;
+}
+
+.tech-desc {
+    height: 300px;
+    background-color: #3F4752;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* font-weight: 600; */
+    font-size: 25px;
+    color: #d4d6d8;
+    text-align: initial;
+}
+
+.tech-client {
+    font-size: 20px;
+    background-color: #d4d6d8;
+}
+
+.tech-server {
+    background-color: #3F4752;
+    color: #d4d6d8;
+}
+
+.color-white {
+    color: #d4d6d8 !important;
+}
+
+.color-white>span {
+    color: #d4d6d8 !important;
+}
+
+.tech-misc {
+    background-color: #d4d6d8;
+}
+
+.tech-desc {
+    padding: 25px;
+    text-align: initial;
+    font-size: 20px;
 }

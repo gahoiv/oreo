@@ -3,6 +3,8 @@ import ReactDOM from "react-dom";
 import { HeaderInstance } from './component/header';
 import { BodyInstance } from './component/body';
 import { ScrollButton } from './component/scrollButton';
+import { TechPageInstance } from './component/tech';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 class ScrollButton1 extends React.Component {
     constructor() {
@@ -37,7 +39,8 @@ class ScrollButton1 extends React.Component {
 ReactDOM.render(
     <div >
         <HeaderInstance/>
-        <BodyInstance/>
+        <Router><Route path="/tech" component={TechPageInstance} /></Router>
+        <Router><Route exact path="/" component={BodyInstance} /></Router>
         <ScrollButton scrollStepInPx="50" delayInMs="16.66"/>
     </div>,
     document.getElementById("root"));
