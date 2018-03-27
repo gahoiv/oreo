@@ -1,6 +1,8 @@
 import { PageHeader, Navbar, Nav, NavItem, NavDropdown, MenuItem, Carousel, Grid, Row, Col } from 'react-bootstrap';
 import React, { Component } from 'react';
 import FontAwesome from 'react-fontawesome';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
 import './../style/style.css';
 
 const navbarInstance = (
@@ -13,8 +15,8 @@ const navbarInstance = (
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-        <NavItem eventKey={1} href="#hiw" className='navItem'>HOW WE CAN HELP</NavItem>
-        <NavItem eventKey={2} href="#tech" className='navItem'>TECHNOLOGIES</NavItem>
+        <NavItem eventKey={1} href="/#hiw" className='navItem'>HOW WE CAN HELP</NavItem>
+        <NavItem eventKey={2} href="#cust" className='navItem'>CLIENTS</NavItem>
         <NavItem eventKey={3} href="#wwd" className='navItem'>CONSULTING</NavItem>
         <NavItem eventKey={4} href="#about" className='navItem'>ABOUT US</NavItem>
         <NavItem eventKey={5} href="#faqs" className='navItem'>FAQS</NavItem>

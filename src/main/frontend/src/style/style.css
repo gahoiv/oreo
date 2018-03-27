@@ -198,11 +198,11 @@ input::placeholder {
 }
 
 .footer {
-    background-color: #F7F7F7;
+    background-color: #d4d6d8;
     padding: 60px 0 60px;
 }
 .footer-header {
-    color:#3073AD;
+    color:#005789;
 }
 
 .footer-font {
@@ -222,7 +222,7 @@ input::placeholder {
 .panel-body {
     text-align: left;
     font-size: 1.5rem;
-    background-color: #F7F7F7;
+    background-color: #d4d6d8;
 }
 
 .navItem {
@@ -298,13 +298,13 @@ input::placeholder {
 /* Tech Style*/
 
 .tech {
-    background: #F7F7F7;
+    background: #d4d6d8;
     padding: 0 0 50px;
 }
 
 .techIcon {
     font-size: 35px;
-    color: #3073AD;
+    color: #005789;
 
 }
 .techs > div {
@@ -314,7 +314,7 @@ input::placeholder {
 
 .techs > div > span {
     font-size: 25px;
-    color: #3073AD;
+    color: #005789;
     font-weight: 800;
     padding: 5px;
 }
@@ -444,7 +444,7 @@ input::placeholder {
 .faq {
     color: #000000;
     padding : 50px;
-    background-color: #F7F7F7;
+    background-color: #d4d6d8;
 }
 
 
@@ -457,10 +457,11 @@ input::placeholder {
 }
 
 .aboutTitle {
-    font-size: 22px;
+    font-size: 3
+    0px;
     font-weight: 700;
     padding: 15px;
-    color:#3073AD;
+    color:#005789;
 }
 
 .aboutTitle-title {
@@ -496,7 +497,7 @@ input::placeholder {
 }
 
 .whatWeDo {
-    background-color: #F7F7F7;
+    background-color: #d4d6d8;
     min-height: 300px;
     padding: 50px;
 }
@@ -505,7 +506,7 @@ input::placeholder {
     text-align: left;
     font-size: 2.2rem;
     font-weight: 600;
-    color:#3073AD;
+    color:#005789;
 
 }
 .rowHeader-title{
@@ -520,4 +521,29 @@ input::placeholder {
     text-align: left;
     font-size: 1.8rem;
     color: #000000;
+}
+
+.cust {
+    background-color: #005789;
+    color: #000000;
+    padding: 50px;
+}
+.custTitle {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 15px;
+    color:#ffffff;
+}
+
+.cust-icon {
+    background: url(../img/philips-footer-logo.png) no-repeat center center;
+    height: 170px;
+    min-width: 110px;
+}
+.cust-details {
+    padding: 20px 0 0 0;
+    text-align: initial;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
 }

@@ -3,7 +3,7 @@ import { DescInstance } from './desc';
 import { FAQInstance } from './faq';
 import { GetStaredInstance } from './get-started';
 import { HomeInstance } from './home';
-import { TechPageInstance } from './tech';
+import { CustInstance } from './cust';
 import { HIWInstance } from './hiw';
 import { AboutUSInstance } from './aboutus';
 import { WhatWeDoInstance } from './what-we-do';
@@ -18,7 +18,7 @@ export const BodyInstance  = () => {
       <HomeInstance/>
       <WhatWeDoInstance/>
       <HIWInstance/>
-      <TechPageInstance/>
+      <CustInstance/>
       <AboutUSInstance/>
       <FAQInstance/>
       <GetStaredInstance/>
